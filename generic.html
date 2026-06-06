@@ -3,64 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Generic</title>
-    <link rel="stylesheet" href="css/style-generic.css">
+    <title>Generic | Introspect</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/db6c4cd2c4.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="wrepper">
-        <div class="container">
-            <header>
-                <!-- NAVIGATION -->
-                <div class="nav">
-                    <div class="nav-container">
-                        <div class="logo">
-                            <a href="#">introspect</a>
-                        </div>
-                        <div class="links">
-                            <ul>
-                                <li><a href="index.html">HOME</a></li>
-                                <li><a href="generic.html">GENERIC</a></li>
-                                <li><a href="#">ELEMENTS</a></li>
-                            </ul>
-                        </div>
+    <div class="wrapper">
+        <header class="main-header inner-page">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="logo">
+                        <a href="index.html">introspect</a>
+                    </div>
+                    <button class="menu-toggle" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="nav-links">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="generic.html" class="active">Generic</a></li>
+                            <li><a href="#">Elements</a></li>
+                        </ul>
                     </div>
                 </div>
-            </header>
-            <!-- CONTENT -->
-            <div class="content">
-                <div class="content-container">
-                    <h1>GENERIC</h1>
-                    <h6>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</h6>
-                    <img src="images/pic11.jpg" alt="">
-                    <p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.</p>
-                    <p>Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.</p>
-                    <p>Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet blandit adipiscing arcu ante.</p>
+            </nav>
+        </header>
+
+        <main>
+            <article class="content-article">
+                <div class="container">
+                    <header class="content-header">
+                        <h1>Generic Page</h1>
+                        <p class="subtitle">Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+                    </header>
+                    <div class="content-body">
+                        <div class="featured-image">
+                            <img src="images/pic11.jpg" alt="Featured Image">
+                        </div>
+                        <p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.</p>
+                        <p>Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.</p>
+                        <p>Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet blandit adipiscing arcu ante.</p>
+                    </div>
+                </div>
+            </article>
+        </main>
+
+        <footer class="main-footer">
+            <div class="container">
+                <form class="contact-form">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="Your Email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required placeholder="How can we help?"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-white">Send Message</button>
+                </form>
+                <div class="footer-bottom">
+                    <p class="copyright">&copy; Designer: AHMED_HANEEN. All rights reserved.</p>
+                    <ul class="social-links">
+                        <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
                 </div>
             </div>
-            <!-- FOOTER -->
-            <footer>
-                <div class="container">
-                    <form class="label-div">
-                        <div class="label">
-                            <label for="name">NAME</label><br>
-                            <input type="text"><br>
-                        </div>
-                        <div class="label">
-                            <label for="email">EMAIL</label><br>
-                            <input type="email"><br>
-                        </div>
-                    </form>
-                    <form class="textarea-div">
-                        <div class="textarea" >
-                            <label for="textarea">MESSAGE</label><br>
-                            <textarea></textarea>
-                        </div>
-                    </form>
-                    <a href="#">GET STARTED</a>
-                    <h6>©Designer:AHMED_HANEEN</h6>
-                </div>
-            </footer>
-        </div>
+        </footer>
     </div>
+    <script src="js/main.js"></script>
 </body>
 </html>

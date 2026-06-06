@@ -3,112 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introspect</title>
+    <title>Introspect | Modern Site Template</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/db6c4cd2c4.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="wrepper">
-        <div class="container">
-                <section>
-                    <header>
-                    <!-- NAVIGATION -->
-                    <div class="nav">
-                        <div class="nav-container">
-                            <div class="logo">
-                                <a href="#">introspect</a>
-                            </div>
-                            <div class="bars">
-                                <i class="fa fas fa-bars"></i>
-                            </div>
-                            <div class="links">
-                                <ul>
-                                    <li><a href="index.html">HOME</a></li>
-                                    <li><a href="generic.html">GENERIC</a></li>
-                                    <li><a href="#">ELEMENTS</a></li>
-                                </ul>
-                            </div>
-                        </div>
+    <div class="wrapper">
+        <header class="main-header">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="logo">
+                        <a href="index.html">introspect</a>
                     </div>
-                    <!-- BANNER -->
-                    <div class="banner">
-                        <div class="banner-overly">
-                            <div class="banner-container">
-                                <h1><span>INTROSPECT: </span>A FREE + FULLY RESPONSIVE SITE TEMPLATE BY TEMPLATED</h1>
-                                <a href="#">GET STARTED</a>
-                            </div>
-                        </div>
-                    </div>
-                </header>
-                </section>
-                <!-- ABOUT -->
-                <div class="about">
-                    <div class="about-container">
-                        <h1>MAGNA ETIAM LOREM</h1>
-                        <p>Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula. Integer adipiscin sem. Nullam quis massa sit amet nibh viverra malesuada. Nunc sem lacus, accumsan quis, faucibus non, congue vel, arcu, erisque hendrerit tellus. Integer sagittis. Vivamus a mauris eget arcu gravida tristique. Nunc iaculis mi in ante.</p>
-                        <a href="#">LEARN MORE</a>    
+                    <button class="menu-toggle" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="nav-links">
+                        <ul>
+                            <li><a href="index.html" class="active">Home</a></li>
+                            <li><a href="generic.html">Generic</a></li>
+                            <li><a href="#">Elements</a></li>
+                        </ul>
                     </div>
                 </div>
-                <!-- TESTIMONIAL -->
-                <div class="testimonial">
-                    <div class="testimonial-container">
-                        <div class="first-half">
-                            <h1>PELLENTESQUE ADIPIS</h1>
-                            <img src="images/pic01.jpg" alt="">
-                            <p>Cumsan mollis eros. Pellentesque a diam sit amet mi magna ullamcorper vehicula. Integer adipiscin sem. Nullam quis massa sit amet lorem ipsum feugiat tempus.</p>
-                        </div>
-                        <div class="second-half">
-                            <h1>MORBI INTERDUM MOL</h1>
-                            <img src="images/pic02.jpg" alt="">
-                            <p>Cumsan mollis eros. Pellentesque a diam sit amet mi magna ullamcorper vehicula. Integer adipiscin sem. Nullam quis massa sit amet lorem ipsum feugiat tempus.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- CARDS -->
-                <div class="card">
-                    <div class="card-container">
-                        <div>
-                            <img src="images/laptop.png" alt="">
-                            <h1>TEMPUS FEUGIAT</h1>
-                            <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna lorem ullamcorper laoreet, lectus arcu.</p>
-                            <a href="#">LEARN MORE</a>
-                        </div>
-                        <div>
-                            <img src="images/diamond.png" alt="">
-                            <h1>ALIQUAM NULLA</h1>
-                            <p>Ut convallis, sem sit amet interdum consectetuer, odio augue aliquam leo, nec dapibus tortor nibh sed.</p>
-                            <a href="#">LEARN MORE</a>
-                        </div>
-                        <div>
-                            <img src="images/laptop.png" alt="">
-                            <h1>SED MAGNA</h1>
-                            <p>Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula.</p>
-                            <a href="#">LEARN MORE</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- FOOTER -->
-                <footer>
+            </nav>
+
+            <section class="hero">
+                <div class="hero-overlay">
                     <div class="container">
-                        <form>
-                            <div class="inp-parent">
-                                <div class="inp">
-                                <label for="name">NAME</label><br>
-                                <input type="text">
-                            </div>
-                            <div class="inp">
-                                <label for="email">EMAIL</label><br>
-                                <input type="email"> 
-                            </div>  
-                            </div>     
-                            <label for="textarea">MESSAGE</label><br>
-                            <textarea></textarea>
-                        </form>
-                        <a href="#">GET STARTED</a>
-                        <h6>©Designer:AHMED_HANEEN</h6>
+                        <h1><span>Introspect:</span> A free + fully responsive site template by Templated</h1>
+                        <a href="#about" class="btn btn-primary">Get Started</a>
                     </div>
-                </footer> 
-        </div>
+                </div>
+            </section>
+        </header>
+
+        <main>
+            <section id="about" class="section about">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Magna Etiam Lorem</h2>
+                    </div>
+                    <div class="section-content">
+                        <p>Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula. Integer adipiscin sem. Nullam quis massa sit amet nibh viverra malesuada. Nunc sem lacus, accumsan quis, faucibus non, congue vel, arcu, erisque hendrerit tellus. Integer sagittis. Vivamus a mauris eget arcu gravida tristique. Nunc iaculis mi in ante.</p>
+                        <a href="#" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section testimonials">
+                <div class="testimonial-grid">
+                    <article class="testimonial-item">
+                        <div class="container">
+                            <h2>Pellentesque Adipis</h2>
+                            <div class="image-wrapper">
+                                <img src="images/pic01.jpg" alt="Person working">
+                            </div>
+                            <p>Cumsan mollis eros. Pellentesque a diam sit amet mi magna ullamcorper vehicula. Integer adipiscin sem. Nullam quis massa sit amet lorem ipsum feugiat tempus.</p>
+                        </div>
+                    </article>
+                    <article class="testimonial-item alt-bg">
+                        <div class="container">
+                            <h2>Morbi Interdum Mol</h2>
+                            <div class="image-wrapper">
+                                <img src="images/pic02.jpg" alt="Laptop on desk">
+                            </div>
+                            <p>Cumsan mollis eros. Pellentesque a diam sit amet mi magna ullamcorper vehicula. Integer adipiscin sem. Nullam quis massa sit amet lorem ipsum feugiat tempus.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section features">
+                <div class="container">
+                    <div class="feature-grid">
+                        <div class="feature-card">
+                            <img src="images/laptop.png" alt="" aria-hidden="true">
+                            <h3>Tempus Feugiat</h3>
+                            <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna lorem ullamcorper laoreet, lectus arcu.</p>
+                            <a href="#" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                        <div class="feature-card">
+                            <img src="images/diamond.png" alt="" aria-hidden="true">
+                            <h3>Aliquam Nulla</h3>
+                            <p>Ut convallis, sem sit amet interdum consectetuer, odio augue aliquam leo, nec dapibus tortor nibh sed.</p>
+                            <a href="#" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                        <div class="feature-card">
+                            <img src="images/laptop.png" alt="" aria-hidden="true">
+                            <h3>Sed Magna</h3>
+                            <p>Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula.</p>
+                            <a href="#" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="main-footer">
+            <div class="container">
+                <form class="contact-form">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="Your Email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required placeholder="How can we help?"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-white">Send Message</button>
+                </form>
+                <div class="footer-bottom">
+                    <p class="copyright">&copy; Designer: AHMED_HANEEN. All rights reserved.</p>
+                    <ul class="social-links">
+                        <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </div>
+    <script src="js/main.js"></script>
 </body>
 </html>
